@@ -16,13 +16,13 @@
     padding-right: 12px;
 }
 
-.row {
+/* .row {
     display: flex;
     flex-direction: column-reverse;
     flex-wrap: wrap;
     margin-left: -12px;
     margin-right: -12px;
-}
+} */
 
 .header-bg {
     background-image: url(../image/png/header-bg-image.png);
@@ -274,23 +274,26 @@ h1 {
     background-size: contain;
 }
 
-.mt-24 {
+.section-4 .mt-24 {
     margin-top: 24px;
 }
 
-.accordion-body {
+.section-4 .accordion-body {
     color: rgba(255, 255, 255, 0.7) !important;
+    padding-left: 0 !important;
+
 }
 
-.accordion-button {
+.section-4 .accordion-button {
     color: white !important;
+    padding-left: 0 !important;
 }
 
-.accordion-top-layer {
+.section-4 .accordion-top-layer {
     top: 0;
 }
 
-.pt-63 {
+.section-4 .pt-63 {
     padding-top: 63px;
 }
 
