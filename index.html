@@ -12,29 +12,58 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body class="font-jost bg-black">
-    <section class="header-bg positon-relative min-vh-100">
-        <nav class="nav-bg py-15">
-            <div class="container d-flex align-item-center justify-space-between">
-                <img src="assets/image/svg/logo.svg" alt="logo">
-                <ul class="d-flex gap-39">
-                    <li class="nav-link"><a class="fw-light fs-sm lh-19 white-colour " href="#">HOME</a></li>
-                    <li class="nav-link"><a class="fw-light fs-sm lh-19 white-colour" href="#">ABOUT</a></li>
-                    <li class="nav-link"><a class="fw-light fs-sm lh-19 white-colour" href="#">ROADMAP</a></li>
-                    <li class="nav-link"><a class="fw-light fs-sm lh-19 white-colour" href="#">TEAM</a></li>
-                    <li class="nav-link"><a class="fw-light fs-sm lh-19 white-colour" href="#">FAQ</a></li>
-                </ul>
-                <ul class="d-flex gap-14">
-                    <li><a href="https://x.com/?&&mx=2"><img class="icon" src="assets/image/svg/twiter-icon.svg"
-                                alt=""></a>
+<body class="\8 bg-black text-white">
+    <section class="header-bg position-relative min-vh-100 overflow-hidden">
+        <nav class="nav-bg">
+            <div class="d-flex justify-content-between lg-center py-22 container">
+                <div>
+                    <a href="#">
+                        <img class="mt-3 mb-3" src="/assets/image/svg/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div onclick="navbarbtn()" class="z-5 d-lg-none pt-26">
+                    <span class="menu-lines " id="rotats"></span>
+                    <span class="menu-lines " id="transparent"></span>
+                    <span class="menu-lines " id="rotats2"></span>
+                </div>
+                <ul id="nav-name" class="list-unstyled nav-link d-flex w-100 justify-content-between ">
+                    <li class="pt-27 pl-23">
                     </li>
-                    <li><a href=""><img class="icon" src="assets/image/svg/teligram-icon.svg" alt=""></a>
+                    <li>
+                        <ul
+                            class="d-flex list-unstyled gap-lg-14 pt-31 items-center gap-39 mb-0 flex-directon-column center-lg-nav-links">
+                            <li class="jost-family fw-light fs-sm lh-19 nav-links cursor-pointer">HOME</li>
+                            <li class="jost-family fw-light fs-sm lh-19 nav-links cursor-pointer">ABOUT</li>
+                            <li class="jost-family fw-light fs-sm lh-19 nav-links cursor-pointer">ROADMAP</li>
+                            <li class="jost-family fw-light fs-sm lh-19 nav-links cursor-pointer">TEAM</li>
+                            <li class="jost-family fw-light fs-sm lh-19 nav-links cursor-pointer">FAQ</li>
+                        </ul>
                     </li>
-                    <li><a href="https://web.telegram.org/k/"><img class="icon"
-                                src="assets/image/svg/intsagram-icon.svg" alt=""></a>
+                    <li>
+                        <ul
+                            class="list-unstyled d-flex lg-justify-content-center gap-14 gap-lg-13 pt-26 center-lg-nav-links">
+                            <li>
+                                <a href="https://x.com/?lang=en" target="_blank">
+                                    <img class="icon" src="/assets/image/svg/twiter-icon.svg" alt="twiter-svg">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://web.telegram.org/" target="_blank">
+                                    <img class="icon" src="./assets/image/svg/teligram-icon.svg" alt="telegram-svg">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/" target="_blank">
+                                    <img class="icon" src="./assets/image/svg/intsagram-icon.svg" alt="instagram-svg">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://discord.com/" target="_blank">
+                                    <img class="icon" src="./assets/image/svg/discord-icon.svg" alt="discord-svg">
+                                </a>
+                            </li>
+                        </ul>
                     </li>
-                    <li><a href="https://discord.com/"><img class="icon" src="assets/image/svg/discord-icon.svg"
-                                alt=""></a></li>
                 </ul>
             </div>
         </nav>
@@ -57,8 +86,8 @@
                             blockchain
                         </h3>
                         <div class="mt-44 ">
-                            <button class="fw-normal fs-md lh-22 white-colour join-button">JOIN NOW</button>
-                            <button class="fw-normal fs-md lh-22 white-colour Whitepaper-button">Whitepaper</button>
+                            <button class="fw-normal fs-md lh-22 white-colour join-button z-2">JOIN NOW</button>
+                            <button class="fw-normal fs-md lh-22 white-colour Whitepaper-button z-2">Whitepaper</button>
                         </div>
                     </div>
                 </div>
@@ -78,15 +107,28 @@
     <!-- section-3 -->
     <section class="min-vh-100 bg-black">
         <div class="container">
-            <p class=" fw-bold fs-xxl text-center text-white">A Quick Hightlight</p>
-            <p class="fw-bolder fs-sm text-center text-white">ON YOUR TACTICAL GEAR</p>
-            <div class="grid">
-                <img class="grid-item-1 w-100 h-100" src="./assets/image/png/full-image.png" alt="hightlight-img">
-                <img class="grid-item-2 w-100 h-100" src="./assets/image/png/gird-image-1.png" alt="grid-img-1">
-                <img class="grid-item-3 w-100 h-100" src="./assets/image/png/grid-image-2.png" alt="grid-img-2">
-                <img class="grid-item-4 w-100 h-100" src="./assets/image/png/gird-image-3.png" alt="grid-img-3">
-                <img class="grid-item-5 w-100 h-100" src="./assets/image/png/grid-image-4.png" alt="grid-img-4">
-                <img class="grid-item-6 w-100 h-100" src="./assets/image/png/grid-image-5.png" alt="grid-img-5">
+            <p class=" fw-bold fs-xxl text-center text-white mt-72">A Quick Hightlight</p>
+            <p class="fw-bolder fs-sm text-center text-white mb-78">ON YOUR TACTICAL GEAR</p>
+            <div class="grid object-fit-cover">
+                <div class="grid-item-1 mt-16">
+                    <img class="w-100 h-100 object-fit-cover" src="./assets/image/png/full-image.png"
+                        alt="hightlight-img">
+                </div>
+                <div class="grid-item-2 mt-16 ml-lg-16">
+                    <img class="w-100 h-100" src="./assets/image/png/gird-image-1.png" alt="grid-img-1">
+                </div>
+                <div class="grid-item-3 mt-16 ml-16">
+                    <img class="w-100 h-100" src="./assets/image/png/grid-image-2.png" alt="grid-img-2">
+                </div>
+                <div class="grid-item-4 mt-16 ml-16">
+                    <img class="w-100 h-100" src="./assets/image/png/gird-image-3.png" alt="grid-img-3">
+                </div>
+                <div class="grid-item-5 mt-16 ml-16">
+                    <img class="w-100 h-100" src="./assets/image/png/grid-image-4.png" alt="grid-img-4">
+                </div>
+                <div class="grid-item-6 mt-16 ml-lg-16">
+                    <img class="w-100 h-100" src="./assets/image/png/grid-image-5.png" alt="grid-img-5">
+                </div>
             </div>
             <p class="mx-946 fw-semibold fs-lg lh-35 text-center mx-auto text-white pt-5">Nigalya offers a NFT
                 collection
@@ -98,127 +140,132 @@
     </section>
     <!-- section-4 -->
     <section class="bg-image-section-4 min-vh-100 section-4 bg-black">
+        <img class="w-100" src="assets/image/png/accordian-layer.png" alt="accordian-layer">
         <div class="container">
             <h2 class="text-white fw-bolder fs-xxl lh-109">FAQs</h2>
-            <div class="row">
-                <div class="col-6">
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Leo sed aliquam odio a dictumst est convallis eu hendrerit. Viverra cras.
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Et nibh sit suspendisse ac. Ipsum enim quisque cursus ullamcorper. Ultrices erat
-                                    odio urna urna nunc, suspendisse venenatis sagittis volutpat. Morbi sit nullam
-                                    diam arcu.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Pellentesque mauris, est at magna. Vel curabitur amet sit id. Enim.
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">Et nibh sit suspendisse ac. Ipsum enim quisque cursus
-                                    ullamcorper. Ultrices erat odio urna urna nunc, suspendisse venenatis sagittis
-                                    volutpat. Morbi sit nullam diam arcu.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Sodales morbi ultrices ipsum posuere rhoncus augue habitasse tellus.
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Et nibh sit suspendisse ac. Ipsum enim quisque cursus ullamcorper. Ultrices erat
-                                    odio urna urna nunc, suspendisse venenatis sagittis volutpat. Morbi sit nullam diam
-                                    arcu.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    Tortor felis scelerisque blandit ullamcorper. Habitant integer in aliquam.
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Et nibh sit suspendisse ac. Ipsum enim quisque cursus ullamcorper. Ultrices erat
-                                    odio urna urna nunc, suspendisse venenatis sagittis volutpat. Morbi sit nullam diam
-                                    arcu.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFive">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    Aliquam orci, ut sodales morbi hac. Sagittis odio sit pharetra sit. Porta.
-                                </button>
-                            </h2>
-                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Et nibh sit suspendisse ac. Ipsum enim quisque cursus ullamcorper. Ultrices erat
-                                    odio urna urna nunc, suspendisse venenatis sagittis volutpat. Morbi sit nullam diam
-                                    arcu.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingSix">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                    Facilisi magna montes, adipiscing ornare gravida odio. Dapibus aliquam.
-                                </button>
-                            </h2>
-                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Et nibh sit suspendisse ac. Ipsum enim quisque cursus ullamcorper. Ultrices erat
-                                    odio urna urna nunc, suspendisse venenatis sagittis volutpat. Morbi sit nullam diam
-                                    arcu.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingSeven">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                    Neque maecenas id at hendrerit. Accumsan cursus augue sed accumsan.
-                                </button>
-                            </h2>
-                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Et nibh sit suspendisse ac. Ipsum enim quisque cursus ullamcorper. Ultrices erat
-                                    odio urna urna nunc, suspendisse venenatis sagittis volutpat. Morbi sit nullam diam
-                                    arcu.
-                                </div>
-                            </div>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Leo sed aliquam odio a dictumst est convallis eu hendrerit. Viverra cras.
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Et nibh sit suspendisse ac. Ipsum enim quisque cursus ullamcorper. Ultrices erat
+                            odio urna urna nunc, suspendisse venenatis sagittis volutpat. Morbi sit nullam
+                            diam arcu.
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
-                    <img class="w-100" src="assets/image/png/section-4-image.png" alt="">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Pellentesque mauris, est at magna. Vel curabitur amet sit id. Enim.
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">Et nibh sit suspendisse ac. Ipsum enim quisque cursus
+                            ullamcorper. Ultrices erat odio urna urna nunc, suspendisse venenatis sagittis
+                            volutpat. Morbi sit nullam diam arcu.
+                        </div>
+                    </div>
                 </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Sodales morbi ultrices ipsum posuere rhoncus augue habitasse tellus.
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Et nibh sit suspendisse ac. Ipsum enim quisque cursus ullamcorper. Ultrices erat
+                            odio urna urna nunc, suspendisse venenatis sagittis volutpat. Morbi sit nullam diam
+                            arcu.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Tortor felis scelerisque blandit ullamcorper. Habitant integer in aliquam.
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Et nibh sit suspendisse ac. Ipsum enim quisque cursus ullamcorper. Ultrices erat
+                            odio urna urna nunc, suspendisse venenatis sagittis volutpat. Morbi sit nullam diam
+                            arcu.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Aliquam orci, ut sodales morbi hac. Sagittis odio sit pharetra sit. Porta.
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Et nibh sit suspendisse ac. Ipsum enim quisque cursus ullamcorper. Ultrices erat
+                            odio urna urna nunc, suspendisse venenatis sagittis volutpat. Morbi sit nullam diam
+                            arcu.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            Facilisi magna montes, adipiscing ornare gravida odio. Dapibus aliquam.
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Et nibh sit suspendisse ac. Ipsum enim quisque cursus ullamcorper. Ultrices erat
+                            odio urna urna nunc, suspendisse venenatis sagittis volutpat. Morbi sit nullam diam
+                            arcu.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSeven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            Neque maecenas id at hendrerit. Accumsan cursus augue sed accumsan.
+                        </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Et nibh sit suspendisse ac. Ipsum enim quisque cursus ullamcorper. Ultrices erat
+                            odio urna urna nunc, suspendisse venenatis sagittis volutpat. Morbi sit nullam diam
+                            arcu.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex gap-14 mb-0 mt-82 pb-45">
+                <a href="https://x.com/?&&mx=2">
+                    <img class="icon" src="assets/image/svg/twiter-icon.svg" alt=""></a>
+                <a href="">
+                    <img class="icon" src="assets/image/svg/teligram-icon.svg" alt=""></a>
+                <a href="https://web.telegram.org/k/">
+                    <img class="icon" src="assets/image/svg/intsagram-icon.svg" alt=""></a>
+                <a href="https://discord.com/">
+                    <img class="icon" src="assets/image/svg/discord-icon.svg" alt=""></a>
+
             </div>
         </div>
     </section>
@@ -226,6 +273,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
+    <script src="/assets/js/app.js"></script>
 </body>
 
 </html>
